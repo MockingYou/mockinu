@@ -90,11 +90,6 @@ section{
     transform: translateY(0) scale(1);
 }
 
-.sec5{
-    display: none;
-    transform: translateY(0) scale(1);
-}
-
 .active{
     display: block;
     animation: scaleAnim 1s ease-in-out;
@@ -111,7 +106,7 @@ section{
 
 
 //Controls
-.controlls{
+.controls{
     position: fixed;
     z-index: 10;
     top: 50%;
@@ -361,57 +356,6 @@ section{
         height: 1px;
         background-color: var(--color-grey-5);
         transform: translateX(-50%);
-    }
-}
-
-/*Timeline*/
-.timeline{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-    padding-bottom: 3rem;
-    .timeline-item{
-        position: relative;
-        padding-left: 3rem;
-        border-left: 1px solid var(--color-grey-5);
-        .tl-icon{
-            position: absolute;
-            left: -27px;
-            top: 0;
-            background-color: var(--color-secondary);
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            i{
-                font-size: 1.3rem;
-            }
-        }
-        .tl-duration{
-            padding: .2rem .6rem;
-            background-color: var(--color-grey-5);
-            border-radius: 15px;
-            display: inline-block;
-            font-size: .8rem;
-            text-transform: uppercase;
-            font-weight: 500;
-        }
-        h5{
-            padding: 1rem 0;
-            text-transform: uppercase;
-            font-size: 1.3rem;
-            font-weight: 600;
-            span{
-                color: var(--color-grey-2);
-                font-weight: 500;
-                font-size: 1.2rem;
-            }
-        }
-        p{
-            color: var(--color-grey-2);
-        }
     }
 }
 

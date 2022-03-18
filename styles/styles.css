@@ -100,12 +100,6 @@ section {
           transform: translateY(0) scale(1);
 }
 
-.sec5 {
-  display: none;
-  -webkit-transform: translateY(0) scale(1);
-          transform: translateY(0) scale(1);
-}
-
 .active {
   display: block;
   -webkit-animation: scaleAnim 1s ease-in-out;
@@ -134,7 +128,7 @@ section {
   }
 }
 
-.controlls {
+.controls {
   position: fixed;
   z-index: 10;
   top: 50%;
@@ -156,17 +150,17 @@ section {
           transform: translateY(-50%);
 }
 
-.controlls .active-btn {
+.controls .active-btn {
   background-color: var(--color-secondary) !important;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
 
-.controlls .active-btn i {
+.controls .active-btn i {
   color: var(--color-white) !important;
 }
 
-.controlls .control {
+.controls .control {
   padding: 1rem;
   cursor: pointer;
   background-color: var(--color-grey-4);
@@ -187,7 +181,7 @@ section {
           box-shadow: var(--box-shadow-1);
 }
 
-.controlls .control i {
+.controls .control i {
   font-size: 1.2rem;
   color: var(--color-grey-2);
   pointer-events: none;
@@ -492,72 +486,6 @@ section {
   background-color: var(--color-grey-5);
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-}
-
-/*Timeline*/
-.timeline {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-  padding-bottom: 3rem;
-}
-
-.timeline .timeline-item {
-  position: relative;
-  padding-left: 3rem;
-  border-left: 1px solid var(--color-grey-5);
-}
-
-.timeline .timeline-item .tl-icon {
-  position: absolute;
-  left: -27px;
-  top: 0;
-  background-color: var(--color-secondary);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.timeline .timeline-item .tl-icon i {
-  font-size: 1.3rem;
-}
-
-.timeline .timeline-item .tl-duration {
-  padding: .2rem .6rem;
-  background-color: var(--color-grey-5);
-  border-radius: 15px;
-  display: inline-block;
-  font-size: .8rem;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.timeline .timeline-item h5 {
-  padding: 1rem 0;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-
-.timeline .timeline-item h5 span {
-  color: var(--color-grey-2);
-  font-weight: 500;
-  font-size: 1.2rem;
-}
-
-.timeline .timeline-item p {
-  color: var(--color-grey-2);
 }
 
 .port-text {
@@ -962,7 +890,7 @@ section {
     margin: 0 auto;
     width: 90%;
   }
-  .controlls {
+  .controls {
     top: auto;
     bottom: 0;
     -webkit-box-orient: horizontal;
@@ -978,7 +906,7 @@ section {
     width: 100%;
     background-color: var(--color-grey-5);
   }
-  .controlls .control {
+  .controls .control {
     margin: 1rem .3rem;
   }
   .about-container {
