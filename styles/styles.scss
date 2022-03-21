@@ -17,6 +17,7 @@
     --color-grey-4: #454e56;
     --color-grey-5: #2a2e35;
     --color-grey-6: #12181b;
+    --color-grey-7: #2a2e35;
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
@@ -33,6 +34,7 @@
     --color-grey-4: #454e56;
     --color-grey-5: #f8f8f8;
     --color-grey-6: #12181b;
+    --color-grey-7: #dfdfdffd;
 }
 
 body{
@@ -92,15 +94,8 @@ section{
 
 .active{
     display: block;
-    animation: scaleAnim 1s ease-in-out;
-    @keyframes scaleAnim {
-        0%{
-            transform: translateY(-100%) scaleY(0)
-        }
-
-        100%{
-            transform: translateY(0) scaleY(1)
-        }
+    &:active{
+        transform: translateY(-3px);
     }
 }
 
@@ -365,6 +360,10 @@ section{
     text-align: center;
 }
 
+.project-desc {
+    text-align: center;
+}
+
 .portfolios{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -519,7 +518,7 @@ section{
                 padding: .8rem 1.1rem;
                 outline: none;
                 border: none;
-                background-color: var(--color-grey-5);
+                background-color: var(--color-grey-7);
                 width: 100%;
                 color: var(--color-white);
                 resize: none;
