@@ -18,11 +18,18 @@
             <p>Languages: HTML5, CSS, JavaScript, React, Bootstrap, jQuery, SQL, nodeJS, C++</p>
             <p>Technology: Git, MongoDB, Unreal Engine 4, Sourcetree</p>
             <div class="btn-con">
-                <a href="Resume Vlad Mocanu.pdf" class="main-btn">
-                    <span class="btn-text">Download Resume</span>
-                    <span class="btn-icon"><i class="fas fa-download"></i></span>
-                </a>
+                <DownloadButton />
             </div>
          </div>
     </section>
 </template>
+
+<script>
+import DownloadButton from '../components/ui/DownloadButton.vue'
+
+export default {
+    components: {
+        DownloadButton
+    }
+}
+</script>

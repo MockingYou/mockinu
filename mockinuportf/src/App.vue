@@ -1,5 +1,5 @@
 <template>
-  <HomePage />
+  <ProjectPage />
   <!-- <base-button link >Contact</base-button> -->
   <!-- <RouterView /> -->
 </template>
@@ -7,11 +7,14 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
 import HomePage from './pages/HomePage.vue'
+import ProjectPage from './pages/ProjectPage.vue'
+
 // import BaseButton from './components/ui/BaseButton.vue'
 
 export default {
   components: {
     HomePage,
+    ProjectPage
     // BaseButton
   }
 
