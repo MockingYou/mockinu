@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import { loadFonts } from './plugins/webfontloader'
+import vuetify from './plugins/vuetify'
 
 import App from './App.vue'
 import router from './router'
@@ -14,4 +16,8 @@ app.use(router)
 
 app.component('base-button', BaseButton);
 
-app.mount('#app')
+loadFonts()
+
+app
+  .use(vuetify)
+  .mount('#app')

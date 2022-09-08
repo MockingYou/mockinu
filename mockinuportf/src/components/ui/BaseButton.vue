@@ -32,6 +32,7 @@ export default {
 <style scoped>
 button,
 a {
+  display: block;
   /* bottom: 0;
   position: fixed;
   z-index: 10;
