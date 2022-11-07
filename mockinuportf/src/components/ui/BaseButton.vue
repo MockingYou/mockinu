@@ -33,7 +33,7 @@ export default {
 button,
 a {
   display: block;
-  /* bottom: 0;
+  bottom: 0;
   position: fixed;
   z-index: 10;
   top: 50%;
@@ -43,8 +43,9 @@ a {
   font: inherit;
   border: 1px solid #3a0061;
   color: white;
-  cursor: pointer; */
+  cursor: pointer;
   border-radius: 50%;
+  width: 100px;
 }
 
 a:hover,

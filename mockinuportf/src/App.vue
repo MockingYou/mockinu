@@ -1,10 +1,10 @@
 <template>
   <router-view></router-view>
   <div>
-    <base-button link to="/" >Home</base-button>
-    <base-button link to="/about" >About</base-button>
-    <base-button link to="/projects" >Projects</base-button>
-    <base-button link to="/contact" >Contact</base-button>
+    <base-button class="btn" link to="/" >Home</base-button>
+    <base-button class="btn" link to="/about" >About</base-button>
+    <base-button class="btn" link to="/projects" >Projects</base-button>
+    <base-button class="btn" link to="/contact" >Contact</base-button>
   </div>
 
 </template>
@@ -24,7 +24,8 @@ export default {
 
 <style scoped>
 div {
-  display: inline-block;
-  width: 50%;
+  float: right;
+  width: 0;
 }
+
 </style>
