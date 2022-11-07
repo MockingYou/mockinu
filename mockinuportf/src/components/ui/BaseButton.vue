@@ -32,20 +32,22 @@ export default {
 <style scoped>
 button,
 a {
-  display: block;
-  bottom: 0;
-  position: fixed;
+  /* bottom: 0; */
+  display: flex;
+  /* position: absolute; */
   z-index: 10;
   top: 50%;
   right: 3%;
-  display: flex;
   background-color: #2a2e35;
   font: inherit;
   border: 1px solid #3a0061;
   color: white;
   cursor: pointer;
   border-radius: 50%;
-  width: 100px;
+  width: 40px;
+  height: 40x;
+  margin-top: 10px;
+  justify-content: center;
 }
 
 a:hover,
