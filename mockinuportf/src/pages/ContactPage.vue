@@ -10,7 +10,7 @@
                     <div class="contact-info">
                         <div class="contact-item">
                             <div class="icon">
-                                <i class="fas fa-map-marker-alt"></i>
+                                <v-icon>mdi-map-marker</v-icon>
                                 <span>Location</span>
                             </div>
                             <p>
@@ -19,7 +19,7 @@
                         </div>
                         <div class="contact-item">
                             <div class="icon">
-                                <i class="fas fa-envelope"></i>
+                                <v-icon>mdi-email-variant</v-icon>
                                 <span>Email</span>
                             </div>
                             <p>
@@ -28,7 +28,7 @@
                         </div>
                         <div class="contact-item">
                             <div class="icon">
-                                <i class="fa-solid fa-phone-flip"></i>
+                                <v-icon>mdi-phone</v-icon>
                                 <span>Mobile Number</span>
                             </div>
                             <p>
@@ -37,7 +37,7 @@
                         </div>
                         <div class="contact-item">
                             <div class="icon">
-                                <i class="fa-solid fa-globe"></i>
+                                <v-icon>mdi-earth</v-icon>
                                 <span>Languages</span>
                             </div>
                             <p>
@@ -48,16 +48,16 @@
                     <div class="contact-icons">
                         <div class="contact-icon">
                             <a href="https://www.linkedin.com/in/vlad-george-m-b83a5616b/" target="_blank">
-                                <i class="fa-brands fa-linkedin"></i>
+                                <v-icon>mdi-linkedin</v-icon>
                             </a>
                             <a href="https://codepen.io/vladm13" target="_blank">
-                                <i class="fa-brands fa-codepen"></i>
+                                <v-icon>mdi-codepen</v-icon>
                             </a>
                             <a href="https://github.com/MockingYou" target="_blank">
-                                <i class="fab fa-github"></i>
+                                <v-icon>mdi-github</v-icon>
                             </a>
                             <a href="https://www.youtube.com/channel/UCv8svFTVTem9lKKaL4nWOmA" target="_blank">
-                                <i class="fab fa-youtube"></i>
+                                <v-icon>mdi-youtube</v-icon>
                             </a>
                         </div>
                     </div>

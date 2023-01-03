@@ -1,22 +1,22 @@
 <template>
   <router-view></router-view>
-  <div>
-    <base-button class="btn" link to="/" >
+  <div class="controls">
+    <base-button class="control  control-1" link to="/" >
       <v-icon aria-label="My Account" role="img" aria-hidden="false">
         mdi-home
       </v-icon>
     </base-button>
-    <base-button class="btn" link to="/about" >
+    <base-button class="control  control-1" link to="/about" >
       <v-icon aria-label="My Account" role="img" aria-hidden="false">
         mdi-account
       </v-icon>
     </base-button>
-    <base-button class="btn" link to="/projects" >
+    <base-button class="control  control-1" link to="/projects" >
       <v-icon aria-label="My Account" role="img" aria-hidden="false">
         mdi-briefcase
       </v-icon>
     </base-button>
-    <base-button class="btn" link to="/contact" >
+    <base-button class="control  control-1" link to="/contact" >
       <v-icon aria-label="My Account" role="img" aria-hidden="false">
         mdi-email-open
       </v-icon>
@@ -28,6 +28,8 @@
 <script>
 import HomePage from './pages/HomePage.vue';
 import BaseButton from './components/ui/BaseButton.vue';
+import { RouterLink, RouterView } from 'vue-router'
+import ProjectPage from './pages/ProjectPage.vue'
 
 import { mdiHome, mdiAccount, mdiBriefcase,mdiEmailOpen } from "@mdi/js";
 
@@ -42,16 +44,27 @@ export default {
   }),
   components: {
     HomePage,
-    BaseButton
+    BaseButton,
+    ProjectPage
+    // BaseButton
   }
 }
 </script>
 
-<style scoped>
+<!-- <style>
+body {
+  background-color: #191d2b;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
 div {
   position: relative;
   float: right;
   width: 0;
 }
 
-</style>
+</style> -->

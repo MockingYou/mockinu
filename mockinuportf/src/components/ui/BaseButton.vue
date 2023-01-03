@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<!-- <style scoped>
 button,
 a {
   /* bottom: 0; */
@@ -76,4 +76,4 @@ button:active {
 .outline:active {
   background-color: #edd2ff;
 }
-</style>
+</style> -->
