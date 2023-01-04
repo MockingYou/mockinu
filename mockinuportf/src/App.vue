@@ -22,12 +22,15 @@
       </v-icon>
     </base-button>
   </div>
-
+  <div class="theme-btn">
+    <theme-button @click="updateTheme"></theme-button>  
+  </div>
 </template>
 
 <script>
 import HomePage from './pages/HomePage.vue';
 import BaseButton from './components/ui/BaseButton.vue';
+import ThemeButton from './components/ui/ThemeButton.vue';
 import { RouterLink, RouterView } from 'vue-router'
 import ProjectPage from './pages/ProjectPage.vue'
 
@@ -40,13 +43,21 @@ export default {
       mdiAccount,
       mdiBriefcase ,
       mdiEmailOpen
-    }
+    },
+    isActive: false,
+    currentTheme : ''
   }),
   components: {
     HomePage,
     BaseButton,
-    ProjectPage
-    // BaseButton
+    ProjectPage,
+    ThemeButton
+  },
+  methods: {
+    updateTheme() {
+        let element = document.body;
+        element.classList.toggle('light-mode')
+    }
   }
 }
 </script>

@@ -1,14 +1,16 @@
 <template>
-    <section class="section sec3" id="portfolio">
+    <section class="section sec3 active" id="portfolio">
         <div class="main-title">
             <h2>My <span>Projects</span></h2>
         </div>
         <p class="port-text">
-            Here is some of my projects that I've done in various programming languages.
+            Here are some of my projects that I've done in various programming languages.
         </p>
         <div class="portfolios" v-for="project in projects">
-            <Project :image="project.image" :title="project.title" :description="project.description" />
-            <ProjectButton :link="project.link" :icon="project.icon" />
+            <div class="portfolio-item">
+                <Project :image="project.image" :title="project.title" :description="project.description" />
+                <ProjectButton :link="project.link" :icon="project.icon" />
+            </div>
         </div>
     </section>
 </template>

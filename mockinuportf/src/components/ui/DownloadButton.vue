@@ -1,7 +1,7 @@
 <template>
     <a href="Resume Vlad Mocanu.pdf" class="main-btn">
         <span class="btn-text">Download Resume</span>
-        <v-icon aria-label="My Account" role="img" aria-hidden="false">
+        <v-icon class="btn-icon" aria-label="My Account" role="img" aria-hidden="false">
             mdi-download
         </v-icon>
         <!-- <span class="btn-icon"><i class="fas fa-download"></i></span> -->
