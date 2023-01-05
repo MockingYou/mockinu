@@ -15,7 +15,7 @@
                 I am looking forward to get some hands-on experience working and learning in a work enviorment.
             </p>
             <h4>Skills</h4>
-            <p>Languages: HTML, CSS, JavaScript, React, AngularJS, Vue, Bootstrap, jQuery, SQL, nodeJS, expressJS, C++</p>
+            <p>Languages: HTML, CSS, JavaScript, React, AngularJS, Vue.js, Bootstrap, jQuery, SQL, nodeJS, expressJS, C++</p>
             <p>Technology: Git, MongoDB, Unreal Engine 4, Sourcetree, Podman, Linux</p>
             <div class="btn-con">
                 <DownloadButton />

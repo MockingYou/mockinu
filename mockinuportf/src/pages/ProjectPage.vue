@@ -6,10 +6,9 @@
         <p class="port-text">
             Here are some of my projects that I've done in various programming languages.
         </p>
-        <div class="portfolios" v-for="project in projects">
-            <div class="portfolio-item">
-                <Project :image="project.image" :title="project.title" :description="project.description" />
-                <ProjectButton :link="project.link" :icon="project.icon" />
+        <div class="portfolios">
+            <div class="portfolio-item"  v-for="project in projects">
+                <Project :image="project.image" :title="project.title" :description="project.description" :link="project.link" :icon="project.icon" />
             </div>
         </div>
     </section>
@@ -17,12 +16,11 @@
 
 <script>
 import Project from './Project.vue'
-import ProjectButton from './ProjectButton.vue'
+// import ProjectButton from './ProjectButton.vue'
 
 export default {
     components: {
-        Project,
-        ProjectButton
+        Project
     },
      data() {
         return {
