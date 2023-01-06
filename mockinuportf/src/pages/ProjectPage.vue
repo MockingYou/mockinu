@@ -53,6 +53,27 @@ export default {
                     link: 'https://drive.google.com/drive/folders/1K4R17y3RalNpESwAOOeHG9F_gO-5KYao?usp=sharing',
                     icon: 'mdi-codepen',
                 },
+                {
+                    image: 'tenzies.png',
+                    title: 'Tenzies game',
+                    description: '',
+                    link: 'https://github.com/MockingYou/tenzies',
+                    icon: 'mdi-github',
+                },
+                {
+                    image: 'pinball.png',
+                    title: 'Pinball',
+                    description: 'A pinball game made using Unreal Engine 4. Implemented a menu with a high score entry, the HUD and simple interactions between objects.',
+                    link: 'https://drive.google.com/drive/folders/1cv1TMDq81uLkgTdT8NXjZlSVTPcRyEwm?usp=sharing',
+                    icon: 'mdi-google-drive',
+                },
+                {
+                    image: 'calculator.png',
+                    title: 'JavaScript Calculator',
+                    description: 'A simple calculator made using React Hooks.',
+                    link: 'https://codepen.io/vladm13/pen/MWoPpjw',
+                    icon: 'mdi-codepen',
+                },
             ]
         };
     },
