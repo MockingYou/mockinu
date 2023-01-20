@@ -29,7 +29,7 @@ export default {
                     image: 'topdownshooter.png',
                     title: 'Top down Shooter',
                     description: 'A top down survival game with endless waves of enemies, health pick-ups, enemy death tracker, made using Unreal Engine 4.',
-                    link: 'https://drive.google.com/drive/folders/1K4R17y3RalNpESwAOOeHG9F_gO-5KYao?usp=sharing',
+                    link: 'https://drive.google.com/file/d/1lAzIIH8XKS9D7oA935C9dmz23MLHUnQC/view?usp=share_link',
                     icon: 'mdi-google-drive',
                 },
                 {
